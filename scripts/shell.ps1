@@ -136,13 +136,7 @@ function Advanced-Menu {
                 Header
                 Write-C "  HERMES SETUP" Yellow
                 Write-Host ""
-
-                powershell.exe `
-                    -NoProfile `
-                    -ExecutionPolicy Bypass `
-                    -File (Join-Path $Root "scripts\setup.ps1") `
-                    -Force
-
+                Run-Hermes @("setup")
                 Pause-Menu
             }
 
