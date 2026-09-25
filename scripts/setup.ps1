@@ -37,7 +37,7 @@ $GitUrl = "https://github.com/git-for-windows/git/releases/download/v2.55.0.wind
 
 $NodeUrl = "https://nodejs.org/dist/v26.8.2/node-v26.8.2-win-x64.zip"
 
-$PythonUrl = "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.11.16+20260901-x86_64-pc-windows-msvc-install_only.tar.gz"
+$PythonUrl = "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.14.7+20260924-x86_64-pc-windows-msvc-install_only.tar.gz"
 
 $UvUrl = "https://releases.astral.sh/github/uv/releases/download/0.12.13/uv-x86_64-pc-windows-msvc.zip"
 
@@ -219,7 +219,7 @@ Write-OK "Portable environment configured"
 # PYTHON
 # ================================================================
 
-Write-Step "Installing portable Python 3.11.16"
+Write-Step "Installing portable Python 3.14.7"
 
 if (-not (Test-Path (Join-Path $PythonRoot "python.exe"))) {
 
