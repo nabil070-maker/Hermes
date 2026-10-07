@@ -35,7 +35,7 @@ $UvCache     = Join-Path $Cache "uv"
 
 $GitUrl = "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip"
 
-$NodeUrl = "https://nodejs.org/dist/v26.8.2/node-v26.8.2-win-x64.zip"
+$NodeUrl = "https://nodejs.org/dist/v26.10.0/node-v26.10.0-win-x64.zip"
 
 $PythonUrl = "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.14.7+20260924-x86_64-pc-windows-msvc-install_only.tar.gz"
 
