@@ -15,7 +15,7 @@ The project is designed around a simple principle:
 * 🪟 **Windows 10 / Windows 11**
 * 💾 Designed for **USB and portable storage**
 * 🐍 Portable **Python 3.11.16**
-* 🟢 Portable **Node.js 26.8.2**
+* 🟢 Portable **Node.js 24.21.0 LTS**
 * 🔧 Portable **Git 2.55.0.5**
 * ⚡ Portable **uv 0.12.13**
 * 🔎 Portable **ripgrep 15.2.0**
