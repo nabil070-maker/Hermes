@@ -15,13 +15,12 @@ The project is designed around a simple principle:
 * 🪟 **Windows 10 / Windows 11**
 * 💾 Designed for **USB and portable storage**
 * 🐍 Portable **Python 3.11.16**
-* 🟢 Portable **Node.js 24.21.0 LTS**
+* 🟢 Portable **Node.js 24.22.1 LTS**
 * 🔧 Portable **Git 2.55.0.5**
-* ⚡ Portable **uv 0.12.13**
+* ⚡ Portable **uv 0.13.5**
 * 🔎 Portable **ripgrep 15.2.0**
 * 📦 Hermes environment created and managed through **uv**
 * 🔒 Avoids relying on the host system's Python environment
-* 🔄 Drive-letter independent
 * 🧹 Temporary download cache is cleaned after setup
 * 🎨 Includes a lightweight interactive PowerShell launcher
 * 🛠️ Built-in setup, reset, diagnostics, and advanced controls
@@ -195,10 +194,10 @@ The project bundles the following tools:
 | Component |  Version | Purpose                                    |
 | --------- | -------: | ------------------------------------------ |
 | Python    |  3.11.16 | Hermes Python runtime                      |
-| Node.js   |   26.8.2 | Node-based tooling                         |
+| Node.js   |  24.22.1 | Node-based tooling                         |
 | Git       | 2.55.0.5 | Source management                          |
-| uv        |  0.12.13 | Python environment & dependency management |
-| ripgrep   |   15.2.0 | Fast file/text searching                   |
+| uv        |  0.13.5  | Python environment & dependency management |
+| ripgrep   |  15.2.0  | Fast file/text searching                   |
 
 These components live under:
 
@@ -307,37 +306,6 @@ uv sync
 
 Portable runtime components are not removed.
 
----
-
-## 💾 USB Portability
-
-Hermes Portable is designed so the entire directory can be moved between drive letters.
-
-For example:
-
-```text
-E:\Hermes\
-```
-
-can become:
-
-```text
-D:\Hermes\
-```
-
-without requiring the paths to be manually edited.
-
-The launcher and PowerShell scripts calculate their paths relative to the project directory.
-
-This makes the project suitable for:
-
-* USB flash drives
-* External SSDs
-* Portable development environments
-* Secondary drives
-* Temporary Windows environments
-
----
 
 ## 🔐 Host Environment Isolation
 
