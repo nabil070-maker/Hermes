@@ -35,11 +35,11 @@ $UvCache     = Join-Path $Cache "uv"
 
 $GitUrl = "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip"
 
-$NodeUrl = "https://nodejs.org/dist/v24.21.0/node-v24.21.0-win-x64.zip"
+$NodeUrl = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip"
 
 $PythonUrl = "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.14.7+20260924-x86_64-pc-windows-msvc-install_only.tar.gz"
 
-$UvUrl = "https://releases.astral.sh/github/uv/releases/download/0.12.13/uv-x86_64-pc-windows-msvc.zip"
+$UvUrl = "https://releases.astral.sh/github/uv/releases/download/0.13.5/uv-x86_64-pc-windows-msvc.zip"
 
 $RgUrl = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip"
 
@@ -312,7 +312,7 @@ Write-OK "Git ready: $GitVersion"
 # NODE
 # ================================================================
 
-Write-Step "Installing portable Node.js 26.8.2"
+Write-Step "Installing portable Node.js 24.22.1"
 
 if (-not (Test-Path (Join-Path $NodeRoot "node.exe"))) {
 
@@ -350,7 +350,7 @@ Write-OK "Node.js ready: $NodeVersion"
 # UV
 # ================================================================
 
-Write-Step "Installing portable uv 0.12.13"
+Write-Step "Installing portable uv 0.13.5"
 
 if (-not (Test-Path (Join-Path $UvRoot "uv.exe"))) {
 
